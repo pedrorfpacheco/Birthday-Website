@@ -49,8 +49,8 @@ body {
 .can-zoom {
   display: none;   /* hidden until button click */
   position: absolute;
-  right: 65px;     /* aligns with right album photos */
-  top: 360px;      /* sits below the second right photo */
+  right: 195px;     /* aligns with right album photos */
+  top: 760px;      /* sits below the second right photo */
   width: 200px;
   height: auto;
   opacity: 0.9;
@@ -1168,6 +1168,9 @@ audio {
 }
 #b8,#b88{
 	background-image: url('../assets/images/balloons/b8.png');
+}
+#b9,#b99{
+	background-image: url('../assets/images/balloons/b9.png');
 }
 .balloons-rotate-behaviour-one {
 	-webkit-animation: balloons_rotate_one linear 10s infinite;
